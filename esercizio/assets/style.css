@@ -34,8 +34,7 @@ body {
         border: 2px solid #F5D3B7;
         border-bottom: none;
         background-color: #f5d3b71f;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
+        border-radius: 8px;
         font-size: 22px;
         
     }
@@ -45,8 +44,7 @@ body {
 
     li:hover {
         background-color:  #f5d3b76e;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
+        border-radius: 8px;
 
     }
 }
@@ -209,7 +207,7 @@ h2::before {
     background-color: black ;
 }
 
-.project h4::after {
+.project .new::after {
     content: "NEW";
     display: inline-block;
     padding: 3xp 10px;
@@ -235,19 +233,22 @@ main a:hover {
 
     label {
         display: block;
-        color: rgb(0, 0, 158);
+        color: #23396A;
+        margin-left: 50px;
     }
 
     input,
     textarea,
     select {
+        margin-left: 50px;
         border-radius: 5px;
-        width: 40%;
-        border: 2.5px solid rgb(0, 0, 158);
+        width: 90%;
+        border: 2.5px solid #F5D3B7;
     }
 
     #label-consense {
         display: inline;
+    
     }
 
     #consense {
@@ -255,7 +256,7 @@ main a:hover {
     }
 
     button {
-        background-color: rgb(0, 0, 158);
+        background-color: #23396A;
         color: white;
         padding: 12px;
         width: 25%;
@@ -265,13 +266,20 @@ main a:hover {
     button:hover {
         background-color: blue;
     }
+    input,select {
+        height: 35px;
+    }
+    
 
 }
 
 footer p {
-    background-color: rgb(109, 109, 255);
+    height: 100%;
+    background-color: #23396A;
     color: white;
-    text-align: center;
+    text-align:center ;
+    padding: 50px;
+    margin-bottom: 0;
 }
 
 .focus:focus {
@@ -307,4 +315,7 @@ footer p {
     color: #23396A;
 
 }
-
+.bi-send-arrow-up-fill{
+    padding: 0 0 0 15px;
+    font-size: medium;
+}
