@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+*,*::before,*::after{box-sizing: border-box;}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+}
+
+.navigator {
+    border-bottom: solid 4px #F5D3B7;
+    background-image: url(https://media.cntraveler.com/photos/68ff82e7977accaf27ac5b35/16:9/w_2560%2Cc_limit/GettyImages-2078516558.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 50vh;
+    text-align: center;
+    font-size: 1.7em;
+    p {
+        margin-bottom: 77px;
+        margin-top: 40px;
+        color: #F5D3B7;
+    }
+    li {
+        display: inline;
+        margin: 30px;
+        text-decoration: none;
+        padding: 12px;
+        border: 2px solid #F5D3B7;
+        border-bottom: none;
+        background-color: #f5d3b71f;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        font-size: 22px;
+        
+    }
+    a{ 
+        text-decoration: none;
+    }
+
+    li:hover {
+        background-color:  #f5d3b76e;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+    }
+}
+
+.comp-table{
+    width: 100%;
+    td{
+        40%
+    }
+    .bar {
+        width: 60%;;
+    }
+}
+.container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 20px 0;
+  
+
+  .prgrs-bar {
+      width: 75%;
+    height: 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+#chi-sono {
+    
+
+    img {
+        float: left;
+        border: solid 4px #F5D3B7;
+        border-radius: 50%;
+        width: 110px;
+    }
+
+    p::first-letter {
+        font-size: 2em;
+        font-weight: bold;
+        color:#23396A;
+    }
+}
+
+
+nav a,
+a:visited {
+    color: beige;
+
+}
+
+
+h2,
+h1 {
+    color: #23396A;
+    text-shadow: 4px 4px 8px #F5D3B7;
+    margin-top:0 ;
+    padding: 20px 0 0px 0;
+}
+
+h2::before {
+    content: "-";
+    font-size: 40px;
+    color: rgb(231, 231, 41);
+
+
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(159, 236, 255);
+
+}
+
+#competenze {
+    clear: both;
+    
+}
+
+#competenze li:nth-child(even) {
+    background-color: rgb(159, 236, 255);
+
+
+}
+
+
+#progetti {
+    
+
+    .back-yellow {
+        background-color: rgb(245, 245, 232);
+    }
+}
+
+.project h2::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 3xp 10px;
+    margin-left: 12px ;
+    background-color: rgb(252, 25, 25);
+    border-radius: 3px;
+    font-size: 1.3rem;
+    color: beige;
+}
+
+
+
+
+main a:hover {
+    color: red;
+}
+
+
+#contatti form div {
+    margin-block: 1.3em;
+
+
+
+    label {
+        display: block;
+        color: rgb(0, 0, 158);
+    }
+
+    input,
+    textarea,
+    select {
+        border-radius: 5px;
+        width: 40%;
+        border: 2.5px solid rgb(0, 0, 158);
+    }
+
+    #label-consense {
+        display: inline;
+    }
+
+    #consense {
+        width: auto;
+    }
+
+    button {
+        background-color: rgb(0, 0, 158);
+        color: white;
+        padding: 12px;
+        width: 25%;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: blue;
+    }
+
+}
+
+footer p {
+    background-color: rgb(109, 109, 255);
+    color: white;
+    text-align: center;
+}
+
+.focus:focus {
+    background-color: rgb(145, 145, 145);
+    color: rgb(255, 255, 255);
+}
+
+ /*border*/
+
+#chi-sono, #esperienze, #competenze, #progetti, #contatti {
+    margin: 8em;
+    margin-top: -5em;
+    margin-bottom: 8em;
+    padding: 20px;
+    border: 3px solid #23396A;
+    border-radius: 15px;
+    background-color:  hsl(28, 30%, 92%);
+}
+
+ .bi-person-circle,
+ .bi-book-half,
+.bi-suitcase-lg-fill,
+.bi-calendar-event-fill,
+.bi-telephone-fill {
+    font-size: 85%;
+    padding: 0 8px;
+}
