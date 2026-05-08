@@ -81,14 +81,46 @@ body {
 
   
 
-  .prgrs-bar {
-    width: 10%;
-    height: 13px;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-  }
+    .prgrs-bar {
+      width: 10%;
+      height: 13px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .prgrs-bar2 {
+      width: 20%;
+      height: 13px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .prgrs-bar3 {
+      width: 30%;
+      height: 13px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .prgrs-bar4 {
+      width: 40%;
+      height: 13px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .prgrs-bar5 {
+      width: 50%;
+      height: 13px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
 }
 #competenze {
     p {
@@ -273,13 +305,17 @@ main a:hover {
 
 }
 
-footer p {
+footer {
     height: 100%;
     background-color: #23396A;
     color: white;
     text-align:center ;
     padding: 50px;
     margin-bottom: 0;
+    div {
+        padding: 30px;
+    }
+
 }
 
 .focus:focus {
