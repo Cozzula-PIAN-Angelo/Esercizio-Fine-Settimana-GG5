@@ -52,31 +52,76 @@ body {
 }
 
 .comp-table{
+    border-collapse: collapse;
     width: 100%;
+    th {
+        padding: 20px;
+        text-align: start;
+        background-color: #F5D3B7;
+        font-size: x-large;
+        color: #23396A;
+    }
+    
     td{
-        40%
+        padding: 20px;
+        border-bottom: 2px solid #F5D3B7;
+    }
+    div {
+        font-size: 17px;
+        
     }
     .bar {
         width: 60%;;
     }
 }
 .container {
-  width: 100%;
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  margin: 20px 0;
+    width: 90%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
   
 
   .prgrs-bar {
-      width: 75%;
-    height: 25px;
+    width: 10%;
+    height: 13px;
     background-color: #4CAF50;
     color: white;
     text-align: center;
     border-radius: 10px;
   }
 }
-
+#competenze {
+    p {
+        padding: 0 20px;
+    }
+        .stack {
+            color: #23396A;
+            padding: 0 0 10px 0 ;
+        }
+    }
+#esperienze { 
+    em {
+        color: #23396A;
+        margin: 0 0 10px;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;}
+    th{
+        padding: 10px;
+        background-color: #F5D3B7;
+        color: #23396A;
+        text-align: start;
+    }
+    td { 
+        padding: 10px;
+        border-bottom: 2px solid #F5D3B7;
+    }
+    
+}
 
 
 
@@ -116,39 +161,55 @@ h1 {
 }
 
 h2::before {
-    content: "-";
+    content: "👌";
     font-size: 40px;
     color: rgb(231, 231, 41);
 
 
 }
 
-tbody tr:nth-of-type(odd) {
-    background-color: rgb(159, 236, 255);
-
-}
-
-#competenze {
-    clear: both;
-    
-}
-
-#competenze li:nth-child(even) {
-    background-color: rgb(159, 236, 255);
-
-
-}
-
-
 #progetti {
     
-
-    .back-yellow {
-        background-color: rgb(245, 245, 232);
+    h4{
+        color: #23396A;
     }
+    .page {
+        padding:0 0 0 10px;
+        border-radius: 10px;
+        border-left: 6px solid #23396A;
+    }
+    .card {
+        padding:0 0 0 10px;
+        border-radius: 10px;
+        border-left: 6px solid #F5D3B7;
+    }
+    .port {
+        padding:0 0 0 10px;
+        border-radius: 10px;
+        border-left: 6px solid #23396A;
+    }
+    .basso{
+        text-align: end;
+        a {
+        text-decoration: none;
+        color: #23396A;
+        text-decoration: underline;
+        text-decoration-color:#F5D3B7 ;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 7px;
+    }
+
+    }
+    
+
+    
+    }
+
+#progetti .back-yellow:nth-child {
+    background-color: black ;
 }
 
-.project h2::after {
+.project h4::after {
     content: "NEW";
     display: inline-block;
     padding: 3xp 10px;
@@ -238,3 +299,12 @@ footer p {
     font-size: 85%;
     padding: 0 8px;
 }
+
+
+.bi-filetype-html {
+    padding: 10px;
+    font-size: large;
+    color: #23396A;
+
+}
+
